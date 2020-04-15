@@ -1,2 +1,4 @@
-﻿  Main.cpp
+﻿  NN.cpp
+C:\Users\Dlamo\OneDrive\Documents\Учеба\Дискретная математика\Discrete Math\Discrete Math\NN.cpp(103,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Dlamo\OneDrive\Documents\Учеба\Дискретная математика\Discrete Math\Discrete Math\NN.cpp(110,10): warning C4018: <: несоответствие типов со знаком и без знака
   Discrete Math.vcxproj -> C:\Users\Dlamo\OneDrive\Documents\Учеба\Дискретная математика\Discrete Math\Debug\Discrete Math.exe
