@@ -120,12 +120,7 @@ const long int SUB_NDN_N(const unsigned long int& n, const unsigned long int& m,
 
     на вход принимаются 2 натуральных числа и положительную степень
 */
-const unsigned long int DIV_NN_Dk(unsigned long int& n, unsigned long int& m, unsigned int& k) {
-    unsigned long int d = 10;
-    d = n > m ? n / MUL_Nk_N(m, k) : m / MUL_Nk_N(n, k);
-    while (d > 9) d = d / 10;
-    return d;
-}
+//const unsigned long int DIV_NN_Dk(unsigned long int& n, unsigned long int& m, unsigned int& k) {}
 
 //автор: Юлия Веселкова
 /*
