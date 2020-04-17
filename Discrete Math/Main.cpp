@@ -1,10 +1,14 @@
 #include <iostream>
-#include <conio.h>
-#include "Natural numbers with zero.h"
+#include <vector>
+#include "NN.h"
 using namespace std;
 
 int main() {
+	setlocale(LC_ALL, "ru");
 	cout << "Discrete Math" << endl;
-	cout << SUB_NDN_N(18, 18, 1) << endl;
+	NN* a = readNN();
+	printNN(a);
+	printNN(MUL_Nk_N(a, 20));
+
 	return 0;
 }
