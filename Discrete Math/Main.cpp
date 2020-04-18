@@ -9,8 +9,11 @@ int main() {
 	NN* a = readNN(), * b = readNN();
 	printNN(a);
 	printNN(b);
-	printNN(SUB_NDN_N(a, b, '2'));
 	//printNN(SUB_NN_N(a, b));
+	//printNN(DIV_NN_Dk(a, b, 2));
+	//printNN(DIV_NN_N(a, b));
+	//printNN(MOD_NN_N(a, b));
+	
 
 	return 0;
 }
